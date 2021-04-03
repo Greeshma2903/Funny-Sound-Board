@@ -1,0 +1,42 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 2rem;
+    background-color: #2d2d2d;
+    color: blue;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .container{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  
+  .container button {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 172, 172);
+    border-radius: 10px;
+    box-shadow: 0 0 6px black;
+    color: blue;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 3rem;
+  }
+
+  .click{
+    box-shadow: 0 0 6px 2px #fff;
+    border: solid 1px goldenrod
+  }
+  
+  @media screen and (max-width:1000px){
+    .container{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .container button{
+      margin-top: 1rem;
+    }
+}
